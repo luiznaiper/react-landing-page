@@ -5,7 +5,6 @@ const Tours = () => {
   return (
     <section className="section" id="tours">
       <Title title="featured" spanTitle="tours" />
-
       <div className="section-center featured-center">
         {tours.map((tour) => {
           const { id, image, date, title, info, location, duration, price } =
